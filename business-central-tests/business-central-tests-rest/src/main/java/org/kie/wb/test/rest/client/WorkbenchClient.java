@@ -87,16 +87,6 @@ public interface WorkbenchClient {
     Collection<Space> getSpaces();
 
     /**
-     * [GET] /ready
-     */
-    String isReady();
-
-    /**
-     * [GET] /healthy
-     */
-    String isHealthy();
-
-    /**
      * [POST] /spaces
      */
     SpaceRequest createSpace(Space space);
